@@ -1,0 +1,449 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 600px){
+    .header-menu ul{
+        display: none;
+    }
+    .header-menu-burger{
+        display: block;
+    }
+    .header-wrap{
+        padding-right: 0;
+    }
+    .header-action-btn{
+        width: 32px;
+        height: 32px;
+        background: url(../img/star.png) no-repeat center;
+        border: 0;
+    }
+    .header-action-btn span{
+        display: none;
+    }
+    .cover{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .contents1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contents2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .contents3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .last-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .tagline-p{
+        font-size: 32px;
+
+    }
+    .information-p1{
+        font-size: 24px;
+    }
+    .block-box1{
+        font-size: 24px;
+    }
+
+}
+
+header{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    top: 0;
+}
+button{
+    background: rgba(0, 101, 242, 1);
+    width: 80px;
+    height: 36px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgba(0, 101, 242, 1);
+    padding: 9px 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.header-menu-burger{
+    width: 32px;
+    height: 32px;
+    background: url(../img/Burger.png) no-repeat center;
+}
+.header-wrap{
+    width: 50%;
+    padding-right: 50px;
+}
+.header-menu-link{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cover{
+    width: 100%;
+    padding-top: 60px;
+}
+.cover-text{
+    width: 445px;
+    height: 324px;
+}
+.tagline-h{
+    width: 100%;
+    height: 28px;
+    font-size: 18px;
+    text-align: start;
+}
+.tagline-p{
+    width: 100%;
+    height: 120px;
+    font-size: 56px;
+    text-align: start;
+}
+.search-button{
+
+    padding-top: 15px;
+}
+.cover-search{
+    background: rgba(9, 19, 33, 0.06);
+    width: 321px;
+    height: 48px;
+    color: rgba(196, 196, 196, 1);
+    font-size: 16px;
+    border: 1px solid rgba(9, 19, 33, 0.06);
+    cursor: pointer;
+}
+.cover-button{
+    background: rgba(0, 101, 242, 1);
+    width: 124px;
+    height: 48px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgba(0, 101, 242, 1);
+    padding: 9px 2px;
+    cursor: pointer;
+}
+.tagline-footer{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    text-align: start;
+}
+.imeges{
+    width: 555px;
+    height: 380px;
+    background: url(../img/Image.png) no-repeat;
+    background-size: 100% auto;
+}
+.information{
+    width: 100%;
+    padding-top: 15px;
+}
+.information-box1{
+    width: 160px;
+    height: 24px;
+}
+.information-h{
+    width: 160px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.information-p1{
+    width: 100%;
+    height: 48px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.information-box2{
+    width: 540px;
+    height: 96px;
+    padding-top: 50px;
+}
+.information-p2{
+    width: 100%;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contents1{
+    width: 100%;
+    padding-top: 15px;
+}
+.t1-imege{
+    width: 555px;
+    height: 380px;
+    background: url(../img/Chart.png) no-repeat;
+    background-size: 100% auto;
+}
+.t1-block{
+    padding-top: 15px;
+    width: 370px;
+    height: 333px;
+}
+.block-box1{
+    width: 100%;
+    height: 64px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.block-box2{
+    width: 100%;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;       
+}
+.t1-block-box3{
+    width: 100%;
+    height: 140px;
+}
+.feature{
+    width: 190px;
+    height: 140px;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 400;
+}
+.img-feature{
+    width: 32px;
+    height: 32px;
+}
+.featutre-a{
+    text-decoration: none;
+    color: rgba(0, 101, 242, 1);
+}
+.contents2{
+    width: 100%;
+    padding-top: 15px;
+}
+.t2-block{
+    width: 445px;
+    height: 227px;
+}
+.t2-block-box3{
+    width: 400px;
+    height: 35px;
+}
+.paypal{
+    width: 91px;
+    height: 23px;
+}
+.apple-pay{
+    width: 51px;
+    height: 24px;
+}
+.android-pay{
+    width: 28px;
+    height: 35px;
+}
+.samsung-pay{
+    width: 109px;
+    height: 16px;
+}
+.t2-imege{
+    width: 555px;
+    height: 380px;
+    background: url(../img/Phone\ Top.png) no-repeat center;
+    background-size: 90% auto;
+}
+.contents3{
+    width: 100%;
+}
+.t3-imege{
+    width: 555px;
+    height: 380px;
+    background: url(../img/Corners.png) no-repeat;
+    background-size: 100% auto;
+}
+.t3-block{
+    width: 445px;
+    height: 256px;
+}
+.corners{
+    font-size: 16px;
+    font-weight: 400;
+}
+.corners::before{
+    content: url(../img/Shape.png);
+    padding-right: 12px;
+}
+.t3-block-box3{
+    width: 100%;
+    height: 88px;
+}
+.imege{
+    width: 100%;
+    height: 500px;
+    padding-top: 15px;
+    background: url(../img/backgraund.png) no-repeat;
+    background-size: 100% 90%;
+}
+.features{
+    width: 100%;
+    padding-top: 15px;
+}
+.double-text{
+    width: 350px;
+    height: 156px;
+}
+.double1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.double2{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.double3{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 101, 242, 1);
+    text-decoration: none;
+}
+.last-content{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+}
+.content-left{
+    width: 285px;
+    padding-bottom: 20px;
+    height: 172px;
+    padding-top: 15px;
+}
+.content-menu{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 240px;
+    height: 141px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content-social{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 91px;
+    height: 96px;
+}
+.left-text{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(216, 216, 216, 1);
+}
+.left-search{
+    background: rgba(9, 19, 33, 0.06);
+    width: 285px;
+    height: 48px;
+    text-align: left;
+    color: rgba(196, 196, 196, 1);
+    font-size: 16px;
+    border: 1px solid rgba(9, 19, 33, 0.06);
+    cursor: pointer;
+}
+input[type=search]{
+    background: url(../img/telegram.png) no-repeat rgba(9, 19, 33, 0.1) right;
+}
+.content-menu1{
+    width: 100px;
+    height: 141px;
+}
+.content-menu2{
+    width: 83px;
+    height: 102px;
+}
+.instagram{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.instagram::before{
+    content: url(../img/instagram.png);
+    padding-right: 13px;
+}
+.facebook{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.facebook::before{
+    content: url(../img/facebook.png);
+    padding-right: 13px;
+}
+.twitter{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.twitter::before{
+    content: url(../img/twitter.png);
+    padding-right: 13px;
+}
+footer{
+    width: 100%;
+    padding-left: 15px;
+} 
+.left{
+    width: 203px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.right{
+    width: 216px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+}
